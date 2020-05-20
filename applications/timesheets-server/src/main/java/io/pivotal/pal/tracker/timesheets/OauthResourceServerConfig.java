@@ -31,6 +31,7 @@ public class OauthResourceServerConfig extends ResourceServerConfigurerAdapter {
     @Override
     public void configure(ResourceServerSecurityConfigurer resources) throws Exception {
         // do not require a resource id in AccessToken.
+        //test
         resources.resourceId(null);
     }
 }
