@@ -13,4 +13,3 @@ applications:
       - tracker-service-registry
       - tracker-sso
       - tracker-config-server
-      
